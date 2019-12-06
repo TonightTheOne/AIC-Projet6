@@ -53,7 +53,7 @@ La GUI se présente sous la forme d'une fenêtre divisé en deux sections :
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/menu.PNG)  
   
 Menu de gauche :  
-- Terminal interne pour test en même temps que éxecution des scripts  
+- Terminal interne pour test en même temps que exécution des scripts  
   
 Menu de droite :  
 - Scan réseau NMAP et détection de l'OS avec inscription résultat dans fichier .xml à l'intérieur dossier /resultat-scan  
@@ -79,7 +79,7 @@ Scan réseau :
   
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-lancement.PNG)  
   
-- La commande est éxecuter dans subprocess xterm et le résultat enregistré dans le repertoire resultat-scan/ en fichier .xml  
+- La commande est exécuter dans subprocess xterm et le résultat enregistré dans le repertoire resultat-scan/ en fichier .xml  
   
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-execution.PNG)  
   
