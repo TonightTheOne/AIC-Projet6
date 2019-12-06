@@ -3,8 +3,6 @@
 
 # Import des modules nécessaires
 import paramiko
-from paramiko import SSHClient
-from scp import SCPClient
 import sys
 from getpass import getpass
 

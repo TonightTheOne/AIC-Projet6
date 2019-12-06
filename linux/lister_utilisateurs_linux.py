@@ -4,7 +4,6 @@
 # Import des modules nécessaires 
 import paramiko
 from getpass import getpass
-import tkinter as tk
 
 # Variable pour la connexion SSH
 hostname = input("Entrez l'adresse IP pour la connexion SSH: ")
