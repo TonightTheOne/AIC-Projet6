@@ -112,7 +112,9 @@ __________________________________________________________________
 Pour le script de backup :  
 - Dans mon cas de figure, j'ai partagé un dossier sur le serveur repertoire /media/Partage_Backup/, et ce dossier est monté sur les clients avec accès en lecture/écriture
 
-Si vous avez un chemin et un nom différent de répertoire de destination pour les sauvegardes, éditez la ligne 27 avec votre propre chemin.
+Si vous avez un chemin et un nom différent de répertoire de destination pour les sauvegardes, éditez la ligne 27 avec votre propre chemin.  
+
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/modification-chemin-backup.PNG)  
 
   
 
