@@ -33,7 +33,7 @@ crypt
    
 # Configuration des machines cibles  
 
-Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l''authentification SSH.  
+Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l'authentification SSH.  
   
 _________________________________________________________________
 # Démarrage du script                                           #
