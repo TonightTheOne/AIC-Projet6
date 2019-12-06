@@ -81,4 +81,14 @@ Les scripts sont interactif, ils vont demander les informations avant de lancer 
   
 Scan réseau :  
 
+- Pour le scan réseau, l'IP réseau et sa plage à scanné se fera dans le terminal de lancement du scrypt :  
+  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-lancement.PNG)  
+  
+- La commande est éxecuter dans subprocess xterm et le résultat enregistrer dans le repertoire resultat-scan/ en fichier .xml  
+  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-execution.PNG)  
+  
+
+
       
