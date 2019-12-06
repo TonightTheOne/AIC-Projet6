@@ -11,19 +11,19 @@ import os
 
 # Définition des actions
 def creation_utilisateur_linux():
-    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 /home/steve/Documents/ScriptProjet6/linux/creation_utilisateur_linux.py"])
+    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 linux/creation_utilisateur_linux.py"])
 
 def list_user_linux():
-    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 /home/steve/Documents/ScriptProjet6/linux/lister_utilisateurs_linux.py"])
+    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 linux/lister_utilisateurs_linux.py"])
 
 def modification_utilisateur_linux():
-    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 /home/steve/Documents/ScriptProjet6/linux/modifier_utilisateur-linux.py"]) 
+    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 linux/modifier_utilisateur-linux.py"]) 
 
 def backup_home_linux():
-    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 /home/steve/Documents/ScriptProjet6/linux/backup_home_user.py"]) 
+    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 linux/backup_home_user.py"]) 
     
 def suppression_utilisateur_linux():
-    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 /home/steve/Documents/ScriptProjet6/linux/suppression_utilisateur_linux.py"]) 
+    subprocess.Popen(["xterm", "-hold", "-sb", "-e", "python3 linux/suppression_utilisateur_linux.py"]) 
 
 
 # Définition des fonction scan réseau
