@@ -50,25 +50,21 @@ _________________________________________________________________
   
 La GUI se présente sous la forme d'une fenêtre divisé en deux sections :  
   
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/menu.PNG)  
+  
+Menu de gauche :  
+- Terminal interne pour test en même temps que éxecution des scripts  
+  
+Menu de droite :  
+- Scan réseau NMAP et détection de l'OS avec inscription résultat dans fichier .xml à l'intérieur dossier /resultat-scan  
+- Grep sur fichier .xml pour récupérer les adresses IP des machines du réseau avec inscription dans .txt -> /resultat-scan  
+- Script pour lister utilisateurs de la machine ciblé, connexion SSH avec paramiko  
+- Script création utilisateur et modification passe au premier Login sur machine ciblé, connexion SSH avec paramiko  
+- Script modification nom utilisateur et son home sur la machine ciblé, connexion SSH avec paramiko  
+- Script sauvegarde des dossiers home de la machine ciblé, connexion SSH avec paramiko, sauvegarde avec rsync  
+- Script suppresion utilisateur sur la machine ciblé, suppresion du home inclus, connexion SSH avec paramiko   
 
 
-
-
-
-Explication contenu et fonction :  
-
-  - menu_administrateur_tkinter.py :  
-      - Main, script pincipal qui appel les autres scripts.  
-      - GUI avec tkinter interaction avec button pour lancement script et terminal interne pour commande en parallèle  
-      - Scan réseau NMAP et détection de l'OS avec inscription résultat dans fichier .xml à l'intérieur dossier /resultat-scan  
-      - Grep sur fichier .xml pour récupérer les adresses IP des machines du réseau avec inscription dans .txt -> /resultat-scan 
-      
-  - répertoire linux :
-      - Script pour lister utilisateurs de la machine ciblé, connexion SSH avec paramiko  
-      - Script création utilisateur et modification passe au premier Login sur machine ciblé, connexion SSH avec paramiko  
-      - Script modification nom utilisateur et son home sur la machine ciblé, connexion SSH avec paramiko  
-      - Script sauvegarde des dossiers home de la machine ciblé, connexion SSH avec paramiko, sauvegarde avec rsync  
-      - Script suppresion utilisateur sur la machine ciblé, suppresion du home inclus, connexion SSH avec paramiko  
       
    - répertoire resultat-scan :  
       - Répertoire de reception du .xml scan NMAP  
