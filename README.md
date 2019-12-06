@@ -34,7 +34,8 @@ crypt
    
 # Configuration des machines cibles  
   
-Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l'authentification SSH.  
+Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l'authentification SSH. 
+Le partage réseau est également configuré et monter sur les clients.
   
 _________________________________________________________________
 # Démarrage du script                                           #
@@ -102,9 +103,16 @@ Quand il faut créer, modifier ou supprimer :
   
 - nom de l'utilisateur à créer (qui inclus son home)  
 - le mot de passe de l'utilsateur (crypté avec crypt, pour la création, modification au premier log)  
-  
 
 
+__________________________________________________________________
+# Modification à apporter                                        #
+__________________________________________________________________
+
+Pour le script de backup :  
+- Dans mon cas de figure, j'ai partagé un dossier sur le serveur repertoire /media/Partage_Backup/, et ce dossier est monté sur les clients avec accès en lecture/écriture
+
+Si vous avez un chemin et un nom différent de répertoire de destination pour les sauvegardes, éditez la ligne 27 avec votre propre chemin.
 
   
 
