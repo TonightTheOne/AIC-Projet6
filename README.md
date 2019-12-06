@@ -66,13 +66,7 @@ Menu de droite :
 - Script modification nom utilisateur et son home sur la machine ciblé, connexion SSH avec paramiko  
 - Script sauvegarde des dossiers home de la machine ciblé, connexion SSH avec paramiko, sauvegarde avec rsync  
 - Script suppresion utilisateur sur la machine ciblé, suppresion du home inclus, connexion SSH avec paramiko   
-
-
-      
-   - répertoire resultat-scan :  
-      - Répertoire de reception du .xml scan NMAP  
-      - Répertoire de réception du .txt trie IP  
-      
+  
 __________________________________________________________________
 # Execution du script                                            #
 __________________________________________________________________
@@ -81,13 +75,38 @@ Les scripts sont interactif, ils vont demander les informations avant de lancer 
   
 Scan réseau :  
 
-- Pour le scan réseau, l'IP réseau et sa plage à scanner se fera dans le terminal de lancement du scrypt :  
+- Pour le scan réseau, l'IP réseau et sa plage à scanner se fera dans le terminal de lancement du script :  
   
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-lancement.PNG)  
   
 - La commande est éxecuter dans subprocess xterm et le résultat enregistré dans le repertoire resultat-scan/ en fichier .xml  
   
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/scan-réseau-execution.PNG)  
+  
+Afficher résultat scan réseau :  
+  
+- Pour l'affichage des résultats, l'affichage se fera dans le terminal de lancement du script :  
+  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-reseau.PNG)  
+  
+- Le résultat est également enregistré dans le repertoire resultat-scan/ en fichier .txt  
+
+Pour les autres fonctions du script, toutes les commandes se feront en subprocess xterm avec demande interactive :  
+  
+- addresse IP de la mahcine cible (obtenu avec le scan réseau)  
+- nom d'utilisateur pour le log ssh  
+- mot de passe (qui ne s'affiche pas avec l'utilisation de getpass)  
+  
+Quand il faut créer, modifier ou supprimer :  
+
+- nom de l'utilisateur à créer (qui inclus son home)  
+- le mot de passe de l'utilsateur (crypté avec crypt, pour la création, modification au premier log)  
+
+
+
+
+  
+
   
 
 
