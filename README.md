@@ -13,8 +13,46 @@ __________________________________________________________________
 # Version de Python : 3.7.3                                      #
 __________________________________________________________________
 
-# Nécessaire au bon fonctionnement
-Module Paramiko à installer avec pip
+__________________________________________________________________
+# Prérequis                                                      #
+__________________________________________________________________
+
+# Python  
+  
+Version recommandée : 3.7.3 (32 ou 64 bits)  
+Le langage Python est disponible au téléchargement à l’adresse suivante : https://www.python.org/downloads/  
+  
+# Modules utilisés  
+  
+tkinter  
+Paramiko  
+subprocess  
+os  
+getpass  
+crypt  
+   
+# Configuration des machines cibles  
+
+Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l''authentification SSH.  
+  
+_________________________________________________________________
+# Démarrage du script                                           #
+_________________________________________________________________
+  
+  
+Se placer dans le repértoire contenant le script "menu_administrateur_tkinter.py" avec cd ou en lancant le terminal directement dans le dossier, ensuite lancer le script avec cette commande :  
+  
+$  python3 menu_administrateur_tkinter.py  
+  
+_________________________________________________________________
+# Utilisation                                                   #
+_________________________________________________________________
+  
+La GUI se présente sous la forme d'une fenêtre divisé en deux sections :  
+  
+
+
+
 
 
 Explication contenu et fonction :  
