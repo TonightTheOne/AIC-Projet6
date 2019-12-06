@@ -57,7 +57,10 @@ Menu de gauche :
   
 Menu de droite :  
 - Scan réseau NMAP et détection de l'OS avec inscription résultat dans fichier .xml à l'intérieur dossier /resultat-scan  
-- Grep sur fichier .xml pour récupérer les adresses IP des machines du réseau avec inscription dans .txt -> /resultat-scan  
+- Grep sur fichier .xml pour récupérer les adresses IP des machines du réseau avec inscription dans .txt -> /resultat-scan 
+   - répertoire resultat-scan :  
+      - Répertoire de reception du .xml scan NMAP  
+      - Répertoire de réception du .txt trie IP  
 - Script pour lister utilisateurs de la machine ciblé, connexion SSH avec paramiko  
 - Script création utilisateur et modification passe au premier Login sur machine ciblé, connexion SSH avec paramiko  
 - Script modification nom utilisateur et son home sur la machine ciblé, connexion SSH avec paramiko  
@@ -69,4 +72,13 @@ Menu de droite :
    - répertoire resultat-scan :  
       - Répertoire de reception du .xml scan NMAP  
       - Répertoire de réception du .txt trie IP  
+      
+__________________________________________________________________
+# Execution du script                                            #
+__________________________________________________________________
+  
+Les scripts sont interactif, ils vont demander les informations avant de lancer les commandes.  
+  
+Scan réseau :  
+
       
