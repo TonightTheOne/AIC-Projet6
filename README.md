@@ -10,7 +10,7 @@ __________________________________________________________________
 # Auteur : Steve Petit                                           #
 # Date de création : novembre 2019                               #
 # Dernière modification : 5 décembre 2019                        #
-# Version de Python : 3.7.3                                      #
+# Version de Python : 3.6.9                                      #
 # Créer sur Linux pour environnement Linux                       #
 __________________________________________________________________
   
@@ -20,7 +20,7 @@ __________________________________________________________________
   
 # Python  
   
-Version recommandée : 3.7.3 (32 ou 64 bits)  
+Version recommandée : 3.6.9 (32 ou 64 bits)  
 Le langage Python est disponible au téléchargement à l’adresse suivante : https://www.python.org/downloads/  
    
 # Modules utilisés  
