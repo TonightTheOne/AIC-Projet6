@@ -67,42 +67,42 @@ p.pack()
 # bouton pour Scan réseau linux
 scan = ttk.Button(p, text='Scan réseau', command=scan_reseau_linux)
 scan.pack(side = TOP)
-p.add(scan, minsize=55)
+p.add(scan, minsize=75)
 
 # bouton pour Afficher résultat
 trie = ttk.Button(p, text='Afficher résultat scan réseau', command=afficher_resultat_linux)
 trie.pack(side = TOP)
-p.add(trie, minsize=55)
+p.add(trie, minsize=75)
 
 # bouton pour Lister utilisateur
 listuser = ttk.Button(p, text='Lister les utilisateurs', command=list_user_linux)
 listuser.pack(side = TOP)
-p.add(listuser, minsize=55)
+p.add(listuser, minsize=75)
 
 # bouton pour Création utilisateur
 adduser = ttk.Button(p, text='Créer un nouveau utilisateur', command=creation_utilisateur_linux)
 adduser.pack(side = TOP)
-p.add(adduser, minsize=55)
+p.add(adduser, minsize=75)
 
 # bouton pour Mofidier utilisateur
 modifyuser = ttk.Button(p, text='Modifier un utilisateur', command=modification_utilisateur_linux)
 modifyuser.pack(side = TOP)
-p.add(modifyuser, minsize=55)
+p.add(modifyuser, minsize=75)
 
 # bouton pour Sauvegarde répertoire personnel utilisateur
 backuphome = ttk.Button(p, text='Sauvegarde des répertoires personnel', command=backup_home_linux)
 backuphome.pack(side = TOP)
-p.add(backuphome, minsize=55)
+p.add(backuphome, minsize=75)
 
 # bouton pour Suppression utilisateur
 deleteuser = ttk.Button(p, text='Supprimer un utilisateur', command=suppression_utilisateur_linux)
 deleteuser.pack(side = TOP)
-p.add(deleteuser, minsize=55)
+p.add(deleteuser, minsize=75)
 
 # bouton pour quitter
 quitt = ttk.Button(p, text='Quitter', command=fen.destroy)
 quitt.pack(side = TOP)
-p.add(quitt, minsize=55)
+p.add(quitt, minsize=75)
 
 # Pour terminer la boucle avec la souris ou le clavier
 fen.mainloop()
