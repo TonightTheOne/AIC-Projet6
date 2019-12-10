@@ -3,13 +3,11 @@
 
 # Import des modules nécessaires
 import paramiko
-import sys
-from getpass import getpass
 
 # Variable pour la connexion SSH
 hostname = input("Entrez l'adresse IP pour la connexion SSH: ")
 username = input("Entrez l'utilisateur: ")
-password = getpass("Entrez le mot de passe: ")
+keyrsa = "/home/steve/.ssh/id_rsa.pub" # Modifier avec votre chemin
 
 # Initialise la connexion SSH
 client = paramiko.SSHClient()
@@ -17,7 +15,7 @@ client = paramiko.SSHClient()
 # Ajoutes les hosts connus
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 try:
-    client.connect(hostname=hostname, username=username, password=password)
+    client.connect(hostname=hostname, username=username, key_filename=keyrsa)
 except:
     print("[!] Cannot connect to the SSH Server")
     exit()
