@@ -34,7 +34,7 @@ crypt
    
 # Configuration des machines cibles  
   
-Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l'authentification SSH avec clé RSA.
+Pour des raisons de simplicité, les machines cibles doivent êtres configurées pour autoriser l'authentification SSH.
 L'utilisateur "administrateur" n'a pas besoin de mot de passe pour utiliser sudo (configuration dans visudo)
 Le partage réseau est également configuré et monter sur les clients.
   
