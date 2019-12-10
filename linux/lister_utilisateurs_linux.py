@@ -22,7 +22,7 @@ except:
     exit()
 
 # Variable de la commande qui va être envoyé par paramiko
-cmd = "cat /etc/passwd | awk -F: '{print $ 1}'"
+cmd = "sudo cat /etc/passwd | awk -F: '{print $ 1}'"
 
 # Exécution de la commande
 stdin, stdout, stderr = client.exec_command(cmd)

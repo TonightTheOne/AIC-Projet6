@@ -33,7 +33,7 @@ except:
     exit()
 
 # Variable de la commande qui va être envoyé par paramiko pour créer nouvel utilisateur renseigné
-cmd = "useradd --create-home  --password " + str(encPass) +" "+ str(user_add)
+cmd = "sudo useradd --create-home  --password " + str(encPass) +" "+ str(user_add)
 
 # Exécution de la commande 
 stdin, stdout, stderr = client.exec_command(cmd)
@@ -42,7 +42,7 @@ stdin, stdout, stderr = client.exec_command(cmd)
 print(stdout.read().decode())
 
 # Variable de la commande envoyé par paramiko pour que l'utilisateur modifie son mot de passe à la première connexion
-cmd2 = "passwd -e " + str(user_modify_pass)
+cmd2 = "sudo passwd -e " + str(user_modify_pass)
 
 # Exécution de la commande 
 stdin, stdout, stderr = client.exec_command(cmd2)

@@ -23,7 +23,7 @@ except:
     exit()
 
 # Variable de la commande qui va être envoyé par paramiko pour le backup avec rsync
-backup = "rsync -av --del --stats --force --filter '- .thumbnails/' --filter '- .Trash/' \
+backup = "sudo rsync -av --del --stats --force --filter '- .thumbnails/' --filter '- .Trash/' \
 --filter '- *.tmp' --filter '- *.iso' --filter '- lost+found/' --filter '- .cache/' \
 --filter '- .beagle/' /home/ /media/Partage_Backup/"+ str(hostname)
 

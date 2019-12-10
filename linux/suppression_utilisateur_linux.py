@@ -23,7 +23,7 @@ except:
     exit()
 
 # Variable de la commande qui va être envoyé par paramiko
-cmd = "userdel -f -r " + str(user_del)
+cmd = "sudo userdel -f -r " + str(user_del)
 
 # Exécution de la commande
 stdin, stdout, stderr = client.exec_command(cmd)

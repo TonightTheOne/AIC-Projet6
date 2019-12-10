@@ -28,7 +28,7 @@ set_new_user = input("Entrez le nouveau nom de l'utilisateur: ")
 set_new_home = input("Entrez le nouveau chemin du dossier personnel (exemple: /home/user): ")
 
 # Variable de la commande qui va être envoyé par paramiko pour créer nouvel utilisateur renseigné
-cmd = "usermod --login" " " + str(set_new_user)+" "+ "--home" " " + str(set_new_home)+" " + "--move-home" " " + str(set_user)
+cmd = "sudo usermod --login" " " + str(set_new_user)+" "+ "--home" " " + str(set_new_home)+" " + "--move-home" " " + str(set_user)
 
 # Exécution de la commande 
 stdin, stdout, stderr = client.exec_command(cmd)
