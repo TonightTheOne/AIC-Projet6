@@ -30,7 +30,8 @@ Paramiko
 subprocess  
 os  
 getpass  
-crypt  
+crypt
+minidom  
    
 # Configuration des machines cibles  
   
