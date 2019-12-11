@@ -31,7 +31,7 @@ def suppression_utilisateur_linux():
 def scan_reseau_linux():
     network = input("Entrez l'IP du réseau à scanner (au format IPV4 ex: 192.168.0.0-10): ")
     os.system('xterm -hold -e nmap -PA -sV --version-light' " "  + str(network) + " " '-oX resultat-scan/rapport-scan-linux.xml')
-    os.system('grep "\(address\|ostype\)" resultat-scan/rapport-scan-linux.xml | sort -u > resultat/scan/rapport-scan-os.txt')
+    os.system('grep "\(address\|ostype\)" resultat-scan/rapport-scan-linux.xml | sort -u > resultat-scan/rapport-scan-os.txt')
     os.system('grep -E -o "([0-9]{1,3}[.]){3}[0-9]{1,3}" resultat-scan/rapport-scan-linux.xml | sort -u > resultat-scan/rapport-final-linux.txt')
     print("Scan réseau et trie correctement effectué, inscription des fichier dans /resultat-scan !")
 
