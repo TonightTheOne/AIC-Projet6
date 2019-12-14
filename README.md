@@ -90,8 +90,14 @@ Scan réseau :
 Afficher résultat scan réseau :  
   
 - Pour l'affichage des résultats, l'affichage se fera dans le terminal de lancement du script :  
-  
-![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-reseau.PNG)  
+
+  -Trois possibilités :  
+    - Afficher résultat non trié  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-reseau-non-trié.PNG)   
+    - Afficher résultat trié OS et IP  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-ip-os.PNG)  
+    - Afficher résultat trié IP  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-ip.PNG)  
   
 - Le résultat est également enregistré dans le repertoire resultat-scan/ en fichier .txt  
   
