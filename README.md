@@ -117,6 +117,10 @@ __________________________________________________________________
 # Modification à apporter                                        #
 __________________________________________________________________
 
+Pour la connexion SSH par key :  
+- Il faut modifier mon chemin par le votre dans chaque variable "keyrsa" des scripts Linux:  
+![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/variable-key-ssh.PNG)  
+
 Pour le script de backup :  
 - Dans mon cas de figure, j'ai partagé un dossier sur le serveur repertoire /media/Partage_Backup/, et ce dossier est monté sur les clients avec accès en lecture/écriture
 
