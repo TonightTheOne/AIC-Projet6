@@ -22,11 +22,23 @@ __________________________________________________________________
   
 Version recommandée : 3.6.9 (32 ou 64 bits)  
 Le langage Python est disponible au téléchargement à l’adresse suivante : https://www.python.org/downloads/  
+  
+# Pip  
+  
+Pour installation de module Python, dans notre cas Paramiko, installez avec : "apt install pthton3-pip"  
+  
+# Xterm  
+  
+Installez avec "apt install xterm"  
+
+# Nmap  
+  
+Installez avec "apt install nmap"  
    
 # Modules utilisés  
   
 tkinter  
-Paramiko  
+Paramiko (pip3 install paramiko)   
 subprocess  
 os  
 getpass  
