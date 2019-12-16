@@ -25,7 +25,7 @@ Le langage Python est disponible au téléchargement à l’adresse suivante : h
   
 # Pip  
   
-Pour installation de module Python, dans notre cas Paramiko, installez avec : "apt install pthton3-pip"  
+Pour installation de module Python, dans notre cas Paramiko, installez avec : "apt install python3-pip"  
   
 # Xterm  
   
