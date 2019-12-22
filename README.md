@@ -11,7 +11,7 @@ __________________________________________________________________
 # Date de création : novembre 2019                               #
 # Dernière modification : 5 décembre 2019                        #
 # Version de Python : 3.6.9                                      #
-# Créer sur Linux pour environnement Linux                       #
+# Créé sur Linux pour environnement Linux                       #
 __________________________________________________________________
   
 __________________________________________________________________
