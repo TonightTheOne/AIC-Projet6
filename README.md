@@ -42,7 +42,7 @@ Paramiko (pip3 install paramiko)
 subprocess  
 os  
 getpass  
-crypt
+crypt  
 minidom  
    
 # Configuration des machines cibles  
