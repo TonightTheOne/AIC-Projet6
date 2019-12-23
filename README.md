@@ -56,7 +56,7 @@ _________________________________________________________________
 _________________________________________________________________
     
   
-Se placer dans le repértoire contenant le script "menu_administrateur_tkinter.py" avec cd ou en lancant le terminal directement dans le dossier, ensuite lancer le script avec cette commande :  
+Se placer dans le repertoire contenant le script "menu_administrateur_tkinter.py" avec cd ou en lancant le terminal directement dans le dossier, ensuite lancer le script avec cette commande :  
   
 $  python3 menu_administrateur_tkinter.py  
     
