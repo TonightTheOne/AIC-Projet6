@@ -51,6 +51,10 @@ def afficher_resultat_ip():
     for line in fichier_linux:
         print("Voici le résultat trié des IP du scan réseau Linux: ", line)
 
+# Définitions pour fermer tous les processus xterm 
+def kill_x():
+    os.system('killall xterm')
+
 # Création et réglages fenêtre
 fen=Tk()
 fen.title("Automatisation Administrateur Linux")
@@ -123,7 +127,7 @@ deleteuser.pack(side = TOP)
 p.add(deleteuser, minsize=65)
 
 # bouton pour quitter
-quitt = ttk.Button(p, text='Quitter', command=fen.destroy)
+quitt = ttk.Button(p, text='Quitter', command=lambda:[kill_x(),fen.destroy()])
 quitt.pack(side = TOP)
 p.add(quitt, minsize=65)
 
