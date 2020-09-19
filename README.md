@@ -103,7 +103,7 @@ Afficher résultat scan réseau :
   
 - Pour l'affichage des résultats, l'affichage se fera dans le terminal de lancement du script :  
 
-  -Trois possibilités :  
+  -Trois possibilitées :  
     - Afficher résultat non trié  
 ![ScreenShot](https://github.com/TonightTheOne/AIC-Projet6/blob/master/documentation/afficher-resultat-scan-reseau-non-trié.PNG)   
     - Afficher résultat trié OS et IP  
@@ -115,14 +115,14 @@ Afficher résultat scan réseau :
   
 Pour les autres fonctions du script, toutes les commandes se feront en subprocess xterm avec demande interactive :  
   
-- addresse IP de la mahcine cible (obtenu avec le scan réseau)  
+- addresse IP de la machine cible (obtenu avec le scan réseau)  
 - nom d'utilisateur pour le log ssh  
 - mot de passe (qui ne s'affiche pas avec l'utilisation de getpass)  
   
 Quand il faut créer, modifier ou supprimer :  
   
 - nom de l'utilisateur à créer (qui inclus son home)  
-- le mot de passe de l'utilsateur (crypté avec crypt, pour la création, modification au premier log)  
+- le mot de passe de l'utilisateur (crypté avec crypt, pour la création, modification au premier log)  
 
 
 __________________________________________________________________
